@@ -1,0 +1,54 @@
+.topbar
+{
+position:fixed;
+top: 0;
+z-index: 999;
+width: 100%;
+height: 50px;
+background-color: rgb(180, 161, 197);
+
+}
+
+.topbarwrapper
+{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .topleft{  
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px
+ } */
+ .topavatar{
+    width: 5px;
+    height: 5px;
+    border-radius: 10%;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    padding: auto;
+    color: rgb(55, 31, 75);
+    cursor: pointer;
+}
+.topright{ 
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px
+}
+
+.search{
+    display: flex;
+    background-color: rgb(252, 252, 252);
+    position: relative;
+}
